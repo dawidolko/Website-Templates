@@ -1,4 +1,4 @@
-# HTML5 Website Templates (For Begginers and Professionals)
+# Website Templates (For Begginers and Professionals)
  
 > *Welcome to our amazing website, your ultimate destination for free HTML templates! Discover a vast collection of beautifully designed and customizable templates that will elevate your web projects to new heights. Whether you're a seasoned developer or a newcomer to the world of coding, our user-friendly platform ensures that creating stunning websites is a breeze.*
 
