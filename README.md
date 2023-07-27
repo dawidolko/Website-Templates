@@ -1,16 +1,16 @@
 # HTML5 Website Templates (For Begginers and Professionals)
  
-> *Welcome to our amazing website, your ultimate destination for free HTML templates! Discover a vast collection of beautifully designed and customizable templates that will elevate your web projects to new heights. Whether you're a seasoned developer or a newcomer to the world of coding, our user-friendly platform ensures that creating stunning websites is a breeze.
+> *Welcome to our amazing website, your ultimate destination for free HTML templates! Discover a vast collection of beautifully designed and customizable templates that will elevate your web projects to new heights. Whether you're a seasoned developer or a newcomer to the world of coding, our user-friendly platform ensures that creating stunning websites is a breeze. <
 
-Explore an array of eye-catching templates across various categories, from sleek and modern designs to charmingly artistic layouts. Each template is thoughtfully crafted, blending aesthetics with functionality to provide a seamless user experience. And the best part? They're all absolutely free!
+> *Explore an array of eye-catching templates across various categories, from sleek and modern designs to charmingly artistic layouts. Each template is thoughtfully crafted, blending aesthetics with functionality to provide a seamless user experience. And the best part? They're all absolutely free!
 
-With our free HTML templates, you have the creative freedom to bring your vision to life. Effortlessly customize colors, fonts, and layout elements to match your brand's identity or personal style. Embrace the power of code without the hassle, as our templates are optimized for performance and responsiveness on all devices.
+> *With our free HTML templates, you have the creative freedom to bring your vision to life. Effortlessly customize colors, fonts, and layout elements to match your brand's identity or personal style. Embrace the power of code without the hassle, as our templates are optimized for performance and responsiveness on all devices.
 
-Whether you're building a personal portfolio, a professional business website, or an engaging blog, we've got the perfect template for you. Stay ahead of the curve and impress your audience with cutting-edge designs that reflect your uniqueness.
+> *Whether you're building a personal portfolio, a professional business website, or an engaging blog, we've got the perfect template for you. Stay ahead of the curve and impress your audience with cutting-edge designs that reflect your uniqueness.
 
-No more spending hours wrestling with HTML code. Embrace the simplicity of our intuitive interface, and let your creativity soar. Join thousands of satisfied users who have already transformed their online presence with our free HTML templates.
+> *No more spending hours wrestling with HTML code. Embrace the simplicity of our intuitive interface, and let your creativity soar. Join thousands of satisfied users who have already transformed their online presence with our free HTML templates.
 
-Don't wait any longer! Dive into a world of limitless possibilities and start building your dream website today. Unleash your creativity and design prowess, as you embark on an exciting journey towards digital success with our free HTML templates. Happy designing* <
+> *Don't wait any longer! Dive into a world of limitless possibilities and start building your dream website today. Unleash your creativity and design prowess, as you embark on an exciting journey towards digital success with our free HTML templates. Happy designing* 
 
 <br/>
 
