@@ -1,4 +1,5 @@
 ---
+redirect_to: templateswebsite.dawidolko.pl
 layout: default
 title: Website Templates
 icon: logo.png
