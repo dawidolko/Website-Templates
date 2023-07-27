@@ -10,7 +10,7 @@
 
 > *No more spending hours wrestling with HTML code. Embrace the simplicity of our intuitive interface, and let your creativity soar. Join thousands of satisfied users who have already transformed their online presence with our free HTML templates.*
 
-> *Don't wait any longer! Dive into a world of limitless possibilities and start building your dream website today. Unleash your creativity and design prowess, as you embark on an exciting journey towards digital success with our free HTML templates. Happy designing* 
+> *Don't wait any longer! Dive into a world of limitless possibilities and start building your dream website today. Unleash your creativity and design prowess, as you embark on an exciting journey towards digital success with our free HTML templates.  Happy designing* 
 
 <br/>
 
