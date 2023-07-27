@@ -19,6 +19,7 @@
 
 ## Table of contents
 
+GitHub Stars: https://github.com/dawidolko/Website-Templates
 
 
 |Sl.No| Template Name  | Live Example |
