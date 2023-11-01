@@ -19,7 +19,7 @@
 
 |LP.  | Template Name  | Live Example |
 |-----|----------------|--------------|
-|  01  | 3-col-portfolio	                                                  |[live example](https://learning-zone.github.io/website-templates/3-col-portfolio/)|	                                                  
+|  01  | 3-col-portfolio	                                                  |[live example](3-col-portfolio/index.html)|	                                                  
 |  02  | above-educational-bootstrap-responsive-template	                  |[live example](https://learning-zone.github.io/website-templates/above-educational-bootstrap-responsive-template/)|	                  
 |  03  | add-life-health-fitness-free-bootstrap-html5-template	          |[live example](https://learning-zone.github.io/website-templates/add-life-health-fitness-free-bootstrap-html5-template/)|	          
 |  04  | aerosky-real-estate-html-responsive-website-template		      |[live example](https://learning-zone.github.io/website-templates/aerosky-real-estate-html-responsive-website-template/)|	      
