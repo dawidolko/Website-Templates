@@ -20,8 +20,8 @@
 |LP.  | Template Name  | Live Example |
 |-----|----------------|--------------|
 |  01  | 3-col-portfolio	                                                  |[live example](3-col-portfolio/index.html)|	                                                  
-|  02  | above-educational-bootstrap-responsive-template	                  |[live example](https://learning-zone.github.io/website-templates/above-educational-bootstrap-responsive-template/)|	                  
-|  03  | add-life-health-fitness-free-bootstrap-html5-template	          |[live example](https://learning-zone.github.io/website-templates/add-life-health-fitness-free-bootstrap-html5-template/)|	          
+|  02  | above-educational-bootstrap-responsive-template	                  |[live example](above-educational-bootstrap-responsive-template/index.html)|	                  
+|  03  | add-life-health-fitness-free-bootstrap-html5-template	          |[live example](add-life-health-fitness-free-bootstrap-html5-template/index.html)|	          
 |  04  | aerosky-real-estate-html-responsive-website-template		      |[live example](https://learning-zone.github.io/website-templates/aerosky-real-estate-html-responsive-website-template/)|	      
 |  05  | agile-agency-free-bootstrap-web-template					      |[live example](https://learning-zone.github.io/website-templates/agile-agency-free-bootstrap-web-template/)|					      
 |  06  | amaze-photography-bootstrap-html5-template					      |[live example](https://learning-zone.github.io/website-templates/amaze-photography-bootstrap-html5-template/)|					      
