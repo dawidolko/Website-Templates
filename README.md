@@ -24,7 +24,7 @@
 |  03  | add-life-health-fitness-free-bootstrap-html5-template	          |[live example](add-life-health-fitness-free-bootstrap-html5-template/index.html)|	          
 |  04  | aerosky-real-estate-html-responsive-website-template		      |[live example](aerosky-real-estate-html-responsive-website-template/index.html)|	      
 |  05  | agile-agency-free-bootstrap-web-template					      |[live example](agile-agency-free-bootstrap-web-template/index.html)|					      
-|  06  | amaze-photography-bootstrap-html5-template					      |[live example](https://learning-zone.github.io/website-templates/amaze-photography-bootstrap-html5-template/)|					      
+|  06  | amaze-photography-bootstrap-html5-template					      |[live example](amaze-photography-bootstrap-html5-template/index.html)|					      
 |  07  | aroma-beauty-and-spa-responsive-bootstrap-template			      |[live example](https://learning-zone.github.io/website-templates/aroma-beauty-and-spa-responsive-bootstrap-template/)|			      
 |  08  | avenger-multi-purpose-responsive-html5-bootstrap-template	      |[live example](https://learning-zone.github.io/website-templates/avenger-multi-purpose-responsive-html5-bootstrap-template/)|	      
 |  09  | b-school-free-education-html5-website-template				      |[live example](https://learning-zone.github.io/website-templates/b-school-free-education-html5-website-template/)|				      
