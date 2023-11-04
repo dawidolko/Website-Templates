@@ -25,7 +25,7 @@
 |  04  | aerosky-real-estate-html-responsive-website-template		      |[live example](aerosky-real-estate-html-responsive-website-template/index.html)|	      
 |  05  | agile-agency-free-bootstrap-web-template					      |[live example](agile-agency-free-bootstrap-web-template/index.html)|					      
 |  06  | amaze-photography-bootstrap-html5-template					      |[live example](amaze-photography-bootstrap-html5-template/index.html)|					      
-|  07  | aroma-beauty-and-spa-responsive-bootstrap-template			      |[live example](https://learning-zone.github.io/website-templates/aroma-beauty-and-spa-responsive-bootstrap-template/)|			      
+|  07  | aroma-beauty-and-spa-responsive-bootstrap-template			      |[live example](aroma-beauty-and-spa-responsive-bootstrap-template/index.html)|			      
 |  08  | avenger-multi-purpose-responsive-html5-bootstrap-template	      |[live example](https://learning-zone.github.io/website-templates/avenger-multi-purpose-responsive-html5-bootstrap-template/)|	      
 |  09  | b-school-free-education-html5-website-template				      |[live example](https://learning-zone.github.io/website-templates/b-school-free-education-html5-website-template/)|				      
 |  10  | basic-free-html5-template-for-multi-purpose|[live example](https://learning-zone.github.io/website-templates/basic-free-html5-template-for-multi-purpose/)|					      
