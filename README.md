@@ -26,8 +26,8 @@
 |  05  | agile-agency-free-bootstrap-web-template					      |[live example](agile-agency-free-bootstrap-web-template/index.html)|					      
 |  06  | amaze-photography-bootstrap-html5-template					      |[live example](amaze-photography-bootstrap-html5-template/index.html)|					      
 |  07  | aroma-beauty-and-spa-responsive-bootstrap-template			      |[live example](aroma-beauty-and-spa-responsive-bootstrap-template/index.html)|			      
-|  08  | avenger-multi-purpose-responsive-html5-bootstrap-template	      |[live example](https://learning-zone.github.io/website-templates/avenger-multi-purpose-responsive-html5-bootstrap-template/)|	      
-|  09  | b-school-free-education-html5-website-template				      |[live example](https://learning-zone.github.io/website-templates/b-school-free-education-html5-website-template/)|				      
+|  08  | avenger-multi-purpose-responsive-html5-bootstrap-template	      |[live example](https://learning-zone.github.io/website-templates/avenger-multi-purpose-responsive-html5-bootstrap-template/index.html)|	      
+|  09  | b-school-free-education-html5-website-template				      |[live example](https://learning-zone.github.io/website-templates/b-school-free-education-html5-website-template/index.html)|				      
 |  10  | basic-free-html5-template-for-multi-purpose|[live example](https://learning-zone.github.io/website-templates/basic-free-html5-template-for-multi-purpose/)|					      
 |  11   | beauty-salon-bootstrap-html5-template						      |[live example](https://learning-zone.github.io/website-templates/beauty-salon-bootstrap-html5-template/)|						      
 |  12   | bestro-restaurant-bootstrap-html5-template					      |[live example](https://learning-zone.github.io/website-templates/bestro-restaurant-bootstrap-html5-template/)|					      
