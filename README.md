@@ -69,7 +69,7 @@
 |  48   | matrix-free-bootstrap-admin-template						      |[live example](https://learning-zone.github.io/website-templates/matrix-free-bootstrap-admin-template/)|						      
 |  49   | me-resume-personal-portfolio-responsive-template			      |[live example](https://learning-zone.github.io/website-templates/me-resume-personal-portfolio-responsive-template/)|			      
 |  50   | mentor-free-html5-bootstrap-coming-soon-template			      |[live example](https://learning-zone.github.io/website-templates/mentor-free-html5-bootstrap-coming-soon-template/)|			      
-|  51   | midway-free-html5-website-template-for-multi-purpose		      |[live example](https://learning-zone.github.io/website-templates/midway-free-html5-website-template-for-multi-purpose/)|		      
+|  51   | midway-free-html5-website-template-for-multi-purpose		      |[live example](midway-free-html5-website-template-for-multi-purpose/index.html)|		      
 |  52   | mobile-app-landing-page-html5-template						      |[live example](https://learning-zone.github.io/website-templates/mobile-app-landing-page-html5-template/)|						      
 |  53   | mobile-app-free-one-page-responsive-html5-landing-page		      |[live example](https://learning-zone.github.io/website-templates/mobile-app-free-one-page-responsive-html5-landing-page/)|		      
 |  54   | moon-free-bootstrap-coming-soon-template					      |[live example](https://learning-zone.github.io/website-templates/moon-free-bootstrap-coming-soon-template/)|					      
