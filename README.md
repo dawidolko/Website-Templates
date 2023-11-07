@@ -91,7 +91,7 @@
 |  70   | tech-city-free-coming-soon-bootstrap-responsive-template	      |[live example](https://learning-zone.github.io/website-templates/tech-city-free-coming-soon-bootstrap-responsive-template/)|	      
 |  71   | techking-free-html5-template-for-corporate-business			      |[live example](https://learning-zone.github.io/website-templates/techking-free-html5-template-for-corporate-business/)|			      
 |  72   | techro														      |[live example](https://learning-zone.github.io/website-templates/techro/)|														      
-|  73   | the-best-wedding-free-bootstrap-template					      |[live example](https://learning-zone.github.io/website-templates/the-best-wedding-free-bootstrap-template/)|					      
+|  73   | the-best-wedding-free-bootstrap-template					      |[live example](the-best-wedding-free-bootstrap-template/index.html)|					      
 |  74   | themer-bootstrap-responsive-web-template					      |[live example](https://learning-zone.github.io/website-templates/themer-bootstrap-responsive-web-template/)|					      
 |  75   | times-corporate-portfolio-bootstrap-responsive-web-template	      |[live example](https://learning-zone.github.io/website-templates/times-corporate-portfolio-bootstrap-responsive-web-template/)|	      
 |  76   | touch-hospital-medical-bootstrap-html5-template				      |[live example](https://learning-zone.github.io/website-templates/touch-hospital-medical-bootstrap-html5-template/)|				      
