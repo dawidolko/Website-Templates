@@ -1,6 +1,6 @@
 # Website Templates (For Begginers and Professionals)
 
-## Go to https://templateswebsite.dawidolko.pl/ where you will be able to see what each page looks like in your browser!!!
+## Go to [page preview](https://templateswebsite.dawidolko.pl/) where you will be able to see what each page looks like in your browser!!!
 
 > *Welcome to our amazing website, your ultimate destination for free HTML templates! Discover a vast collection of beautifully designed and customizable templates that will elevate your web projects to new heights. Whether you're a seasoned developer or a newcomer to the world of coding, our user-friendly platform ensures that creating stunning websites is a breeze.*
 
