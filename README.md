@@ -163,7 +163,7 @@
 |  141   | relic-portal												      |[live example](https://templateswebsite.dawidolko.pl/relic-portal/)|												      
 |  142   | sample_site													      |[live example](https://templateswebsite.dawidolko.pl/sample_site/)|													      
 |  143   | sb-admin-2													      |[live example](https://templateswebsite.dawidolko.pl/sb-admin-2/)|													      
-|  144   | sb-admin													      |[live example](shttps://templateswebsite.dawidolko.pl/b-admin/)|													      
+|  144   | sb-admin													      |[live example](https://templateswebsite.dawidolko.pl/b-admin/)|													      
 |  145   | scenic-photo												      |[live example](https://templateswebsite.dawidolko.pl/scenic-photo/)|												      
 |  146   | school-educational-html5-template							      |[live example](https://templateswebsite.dawidolko.pl/school-educational-html5-template/)|							      
 |  147   | simple-sidebar												      |[live example](https://templateswebsite.dawidolko.pl/himple-sidebar/)|												      
