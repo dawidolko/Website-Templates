@@ -1,4 +1,4 @@
-# Website Templates (For Begginers and Professionals)
+# Website Templates - (For Begginers and Professionals)
 
 ### Go to [page preview](https://templateswebsite.dawidolko.pl/) where you will be able to see what each page looks like in your browser!
 
