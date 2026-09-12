@@ -1,22 +1,44 @@
-# Website Templates - (For Begginers and Professionals)
+# Website Templates
 
-### Go to [page preview](https://templateswebsite.dawidolko.pl/) where you will be able to see what each page looks like in your browser!
+> 🎨 **170 templates, all of them openable** — a browsable library of free HTML5 and Bootstrap templates, each one live
 
-> _Welcome to our amazing website, your ultimate destination for free HTML templates! Discover a vast collection of beautifully designed and customizable templates that will elevate your web projects to new heights. Whether you're a seasoned developer or a newcomer to the world of coding, our user-friendly platform ensures that creating stunning websites is a breeze._
+**Website Templates** is a collection of 170 free, editable HTML templates — portfolios, business sites, blogs, shops, agencies, restaurants, photography and more. Every one of them is checked in whole, and every one has a working preview: the whole repository is published through GitHub Pages, so a template can be opened and judged before it is downloaded.
 
-> _Explore an array of eye-catching templates across various categories, from sleek and modern designs to charmingly artistic layouts. Each template is thoughtfully crafted, blending aesthetics with functionality to provide a seamless user experience. And the best part? They're all absolutely free!_
+There is nothing to install and nothing to build. Each directory is a complete static site: open its `index.html`, or click its live example in the table below.
 
-> _With our free HTML templates, you have the creative freedom to bring your vision to life. Effortlessly customize colors, fonts, and layout elements to match your brand's identity or personal style. Embrace the power of code without the hassle, as our templates are optimized for performance and responsiveness on all devices._
+![HTML5](https://img.shields.io/badge/HTML5-170%20templates-E34F26?logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-responsive-7952B3?logo=bootstrap&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-editable-1572B6?logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-every%20template%20live-222222?logo=githubpages&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-> _Whether you're building a personal portfolio, a professional business website, or an engaging blog, we've got the perfect template for you. Stay ahead of the curve and impress your audience with cutting-edge designs that reflect your uniqueness._
+**Browse them all:** [templateswebsite.dawidolko.pl](https://templateswebsite.dawidolko.pl/)
 
-> _No more spending hours wrestling with HTML code. Embrace the simplicity of our intuitive interface, and let your creativity soar. Join thousands of satisfied users who have already transformed their online presence with our free HTML templates._
+---
 
-> _Don't wait any longer! Dive into a world of limitless possibilities and start building your dream website today. Unleash your creativity and design prowess, as you embark on an exciting journey towards digital success with our free HTML templates. Happy designing_
+## 🎯 What Is Here
 
-<br/>
+- **Every template previewable** — the whole collection is served by GitHub Pages, so the table below links to a running page rather than a screenshot.
+- **Complete sites, not fragments** — each directory holds its own markup, stylesheets, scripts and images, and works when opened on its own.
+- **Responsive throughout** — the collection is built around Bootstrap and hand-written responsive CSS.
+- **Free to edit** — take a directory, change the content and the palette, and publish it. Nothing here needs a build step or a licence key.
+- **Categorised by purpose** — portfolios, agencies, shops, restaurants, education, health, real estate, photography and one-page landings.
 
-## Table of contents
+---
+
+## 🚀 Using a Template
+
+```bash
+git clone https://github.com/dawidolko/Website-Templates.git
+cd Website-Templates/<template-name>
+open index.html          # or serve the directory
+```
+
+Copy the single directory you want into your own project — nothing in a template depends on the rest of the repository.
+
+---
+
+## 📑 The Templates
 
 | LP. | Template Name                                                      | Live Example                                                                                                              |
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -189,3 +211,9 @@
 | 168 | webtrends-free-bootstrap-responsive-web-template                   | [live example](https://templateswebsite.dawidolko.pl/webtrends-free-bootstrap-responsive-web-template/)                   |
 | 169 | zenlike                                                            | [live example](https://templateswebsite.dawidolko.pl/zenlike/)                                                            |
 | 170 | reveal                                                             | [live example](https://templateswebsite.dawidolko.pl/reveal/)                                                             |
+
+---
+
+## 📄 License
+
+MIT © [Dawid Olko](https://dawidolko.pl)
