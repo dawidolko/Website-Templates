@@ -18,7 +18,7 @@ There is nothing to install and nothing to build. Each directory is a complete s
 
 **Browse them all:** [templateswebsite.dawidolko.pl](https://templateswebsite.dawidolko.pl/)
 
-**[Live site](https://templateswebsite.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Features](#-key-features)
+**[Live site](https://templateswebsite.dawidolko.pl/)** · [Screenshots](#️-screenshots)
 
 ---
 
