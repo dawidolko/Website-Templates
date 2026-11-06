@@ -1,0 +1,289 @@
+/* Own colours, so the panel stays readable on any site. Override --a11yp-accent to brand it. */
+.a11yp {
+  --a11yp-accent: #1d4ed8;
+  --a11yp-bg: #ffffff;
+  --a11yp-ink: #14171d;
+  --a11yp-soft: #3a4250;
+  --a11yp-line: #8b95a3;
+  position: fixed;
+  z-index: 2147483000;
+  bottom: 16px;
+  font: 400 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.a11yp--left {
+  left: 16px;
+}
+
+.a11yp--right {
+  right: 16px;
+}
+
+/* Sites set fonts and transitions on every element, so the panel resets what it inherits. */
+.a11yp *,
+.a11yp *::before {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  letter-spacing: normal;
+  text-transform: none;
+  transition: none;
+}
+
+.a11yp__toggle {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: var(--a11yp-accent);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 22%), 0 10px 24px rgb(0 0 0 / 24%);
+  cursor: pointer;
+}
+
+.a11yp__toggle svg {
+  fill: currentColor;
+}
+
+.a11yp button:focus-visible,
+.a11yp__title:focus-visible {
+  outline: 3px solid var(--a11yp-accent);
+  outline-offset: 2px;
+}
+
+.a11yp__toggle:focus-visible {
+  outline-color: #ffffff;
+  box-shadow: 0 0 0 6px var(--a11yp-accent);
+}
+
+.a11yp__panel {
+  position: absolute;
+  bottom: 60px;
+  width: min(330px, calc(100vw - 32px));
+  max-height: calc(100vh - 92px);
+  overflow-y: auto;
+  padding: 14px;
+  border: 1px solid var(--a11yp-line);
+  border-radius: 12px;
+  background: var(--a11yp-bg);
+  color: var(--a11yp-ink);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 14%), 0 18px 48px rgb(0 0 0 / 28%);
+}
+
+.a11yp__panel[hidden] {
+  display: none;
+}
+
+.a11yp--left .a11yp__panel {
+  left: 0;
+}
+
+.a11yp--right .a11yp__panel {
+  right: 0;
+}
+
+.a11yp__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.a11yp__title {
+  margin: 0;
+  color: var(--a11yp-ink);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.a11yp__title:focus {
+  outline: none;
+}
+
+.a11yp__close {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--a11yp-ink);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.a11yp__note {
+  margin: 0 0 8px;
+  color: var(--a11yp-soft);
+  font-size: 14px;
+}
+
+.a11yp__label {
+  margin: 12px 0 6px;
+  color: var(--a11yp-ink);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.a11yp__size {
+  display: grid;
+  grid-template-columns: 56px 1fr 56px;
+  align-items: center;
+  gap: 8px;
+}
+
+.a11yp__value {
+  color: var(--a11yp-ink);
+  font-weight: 700;
+  text-align: center;
+}
+
+.a11yp__step,
+.a11yp__option,
+.a11yp__reset {
+  min-height: 44px;
+  padding: 6px 8px;
+  border: 2px solid var(--a11yp-ink);
+  border-radius: 8px;
+  background: var(--a11yp-bg);
+  color: var(--a11yp-ink);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.a11yp__step:disabled {
+  border-color: var(--a11yp-line);
+  color: var(--a11yp-soft);
+  cursor: not-allowed;
+}
+
+.a11yp__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.a11yp__option[aria-pressed="true"] {
+  border-color: var(--a11yp-accent);
+  background: var(--a11yp-accent);
+  color: #ffffff;
+}
+
+.a11yp__reset {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.a11yp__step:not(:disabled):hover,
+.a11yp__option:hover,
+.a11yp__reset:hover {
+  background: var(--a11yp-ink);
+  color: var(--a11yp-bg);
+}
+
+/* What each setting does to the page. */
+html.a11yp-size-110 body {
+  zoom: 1.1;
+}
+
+html.a11yp-size-120 body {
+  zoom: 1.2;
+}
+
+html.a11yp-size-130 body {
+  zoom: 1.3;
+}
+
+html.a11yp-size-140 body {
+  zoom: 1.4;
+}
+
+/* The panel sits inside the body, so it undoes that zoom and always fits the screen. */
+html.a11yp-size-110 .a11yp {
+  zoom: 0.9091;
+}
+
+html.a11yp-size-120 .a11yp {
+  zoom: 0.8333;
+}
+
+html.a11yp-size-130 .a11yp {
+  zoom: 0.7692;
+}
+
+html.a11yp-size-140 .a11yp {
+  zoom: 0.7143;
+}
+
+html.a11yp-grayscale {
+  filter: grayscale(1);
+}
+
+html.a11yp-invert {
+  background: #ffffff;
+  filter: invert(1) hue-rotate(180deg);
+}
+
+html.a11yp-invert img,
+html.a11yp-invert video,
+html.a11yp-invert picture {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+html.a11yp-contrast body,
+html.a11yp-contrast body *:not(svg, svg *, img, video, .a11yp, .a11yp *) {
+  border-color: #ffffff !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+html.a11yp-contrast a:not(.a11yp *),
+html.a11yp-contrast a *:not(.a11yp *) {
+  color: #ffff00 !important;
+}
+
+html.a11yp-light body,
+html.a11yp-light body *:not(svg, svg *, img, video, .a11yp, .a11yp *) {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #000000 !important;
+  text-shadow: none !important;
+}
+
+html.a11yp-light a,
+html.a11yp-light a * {
+  color: #0000b8 !important;
+}
+
+html.a11yp-links a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+}
+
+html.a11yp-font body,
+html.a11yp-font body *:not(svg, svg *, .a11yp, .a11yp *) {
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+  letter-spacing: 0.02em !important;
+}
+
+html.a11yp-motion *,
+html.a11yp-motion *::before,
+html.a11yp-motion *::after {
+  scroll-behavior: auto !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+@media print {
+  .a11yp {
+    display: none;
+  }
+}

@@ -9,3 +9,5 @@ icon: logo.png
 favicon: "logo.png"
 show_downloads: true
 theme: jekyll-theme-midnight
+url: https://templateswebsite.dawidolko.pl
+lang: en

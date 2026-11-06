@@ -1,0 +1,47 @@
+{
+ "README.md": {
+  "label": "Website Templates",
+  "title": "Website Templates | 170 Free HTML5 and Bootstrap Demos",
+  "description": "Browse 170 free HTML5 and Bootstrap website templates for portfolios, business sites, blogs and shops, each one open as a live demo you can edit.",
+  "lang": "en",
+  "levels": [
+   "1>2",
+   "2>3",
+   "3>4"
+  ],
+  "swaps": [
+   [
+    "<img src=\"docs/readme/banner.webp\" alt=\"Website Templates: resource. 170 templates, all of them openable\" width=\"100%\" />",
+    "<img fetchpriority=\"high\" style=\"aspect-ratio: 760 / 238\" src=\"/assets/site/docs-readme-banner-webp-1244e049.webp\" alt=\"Website Templates: resource. 170 templates, all of them openable\" width=\"100%\" />"
+   ],
+   [
+    "<img src=\"https://img.shields.io/badge/HTML5-170%20templates-E34F26?logo=html5&amp;logoColor=white\" alt=\"HTML5\" />",
+    "<img loading=\"lazy\" decoding=\"async\" width=\"153\" height=\"20\" src=\"/assets/site/badge-html5-170-20templates-e34f26-7126ed5e.svg\" alt=\"HTML5\" />"
+   ],
+   [
+    "<img src=\"https://img.shields.io/badge/Bootstrap-responsive-7952B3?logo=bootstrap&amp;logoColor=white\" alt=\"Bootstrap\" />",
+    "<img loading=\"lazy\" decoding=\"async\" width=\"149\" height=\"20\" src=\"/assets/site/badge-bootstrap-responsive-7952b3-ba86ec32.svg\" alt=\"Bootstrap\" />"
+   ],
+   [
+    "<img src=\"https://img.shields.io/badge/CSS3-editable-1572B6?logo=css3&amp;logoColor=white\" alt=\"CSS3\" />",
+    "<img loading=\"lazy\" decoding=\"async\" width=\"92\" height=\"20\" src=\"/assets/site/badge-css3-editable-1572b6-5efdb1f6.svg\" alt=\"CSS3\" />"
+   ],
+   [
+    "<img src=\"https://img.shields.io/badge/GitHub%20Pages-every%20template%20live-222222?logo=githubpages&amp;logoColor=white\" alt=\"GitHub Pages\" />",
+    "<img loading=\"lazy\" decoding=\"async\" width=\"219\" height=\"20\" src=\"/assets/site/b-20pages-every-20template-20live-222222-55483de1.svg\" alt=\"GitHub Pages\" />"
+   ],
+   [
+    "<img src=\"https://img.shields.io/badge/License-MIT-green\" alt=\"License\" />",
+    "<img loading=\"lazy\" decoding=\"async\" width=\"82\" height=\"20\" src=\"/assets/site/badge-license-mit-green-f99392a8.svg\" alt=\"License\" />"
+   ],
+   [
+    "<img src=\"docs/readme/desktop.webp\" alt=\"Website Templates on a desktop screen\" width=\"74%\" />",
+    "<img loading=\"lazy\" decoding=\"async\" style=\"aspect-ratio: 760 / 475\" src=\"/assets/site/docs-readme-desktop-webp-e9ad1e80.webp\" alt=\"Website Templates on a desktop screen\" width=\"74%\" />"
+   ],
+   [
+    "<img src=\"docs/readme/mobile.webp\" alt=\"Website Templates on a phone\" width=\"22%\" />",
+    "<img loading=\"lazy\" decoding=\"async\" style=\"aspect-ratio: 520 / 1125\" src=\"/assets/site/docs-readme-mobile-webp-34009605.webp\" alt=\"Website Templates on a phone\" width=\"22%\" />"
+   ]
+  ]
+ }
+}

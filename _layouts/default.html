@@ -1,54 +1,98 @@
+{%- assign entry = site.data.pages[page.path] -%}
+{%- assign home = false -%}
+{%- if page.url == "/" -%}{%- assign home = true -%}{%- endif -%}
+{%- if entry -%}
+  {%- assign meta_title = entry.title -%}
+  {%- assign meta_description = entry.description -%}
+{%- else -%}
+  {%- assign meta_title = page.title | default: site.title | append: " | " | append: site.title -%}
+  {%- assign meta_description = site.description -%}
+{%- endif -%}
+{%- assign page_url = page.url | absolute_url -%}
+{%- assign og_image = "/assets/og-image.png" | absolute_url -%}
+{%- assign body = content -%}
+{%- for swap in entry.swaps -%}
+  {%- assign body = body | replace: swap[0], swap[1] -%}
+{%- endfor -%}
+{%- for rule in entry.levels -%}
+  {%- assign pair = rule | split: ">" -%}
+  {%- assign open_from = "<h" | append: pair[0] -%}
+  {%- assign open_to = "<hh" | append: pair[1] -%}
+  {%- assign close_from = "</h" | append: pair[0] -%}
+  {%- assign close_to = "</hh" | append: pair[1] -%}
+  {%- assign body = body | replace: open_from, open_to | replace: close_from, close_to -%}
+{%- endfor -%}
 <!doctype html>
-    <html lang="{{ site.lang | default: "en-US" }}">
-      <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    {% seo %}
-        <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-        <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-        <title>Website Templates</title>
-        <link rel="icon" type="image/png" href="logo.png">
-        <!--[if lt IE 9]>
-          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <!--[if lt IE 8]>
-        <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-        <![endif]-->
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        {% include head-custom.html %}
-      </head>
-      <body>
-          <div id="header">
-            <nav>
-              <ul>
-                <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-                {% if site.show_downloads %}
-                  <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-                  <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-                  <li class="title">DOWNLOADS</li>
-                {% endif %}
-              </ul>
-            </nav>
-          </div><!-- end header -->
-    
-        <div class="wrapper">
-    
-          <section>
-            <div id="title">
-              <h1>{{ site.title | default: site.github.repository_name }}</h1>
-              <p>{{ site.description | default: site.github.project_tagline }}</p>
-              <hr>
-              <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-              <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/dawidolko">dawidolko</a></span>
-            </div>
-    
-            {{ content }}
-    
-          </section>
-    
+<html lang="{{ entry.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>{{ meta_title | escape }}</title>
+    <meta name="description" content="{{ meta_description | escape }}">
+    {%- unless entry %}
+    <meta name="robots" content="noindex, follow">
+    {%- endunless %}
+    <link rel="canonical" href="{{ page_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ meta_title | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ site.title | escape }} study notes">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ meta_title | escape }}">
+    <meta name="twitter:description" content="{{ meta_description | escape }}">
+    <meta name="twitter:image" content="{{ og_image }}">
+    {%- if entry %}
+    <script type="application/ld+json">
+      {%- if home %}
+      {"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"url":{{ page_url | jsonify }},"description":{{ meta_description | jsonify }},"inLanguage":"en","author":{"@type":"Person","name":"Dawid Olko","jobTitle":"Fullstack / AI Developer","url":"https://dawidolko.pl/"}}
+      {%- else %}
+      {"@context":"https://schema.org","@graph":[{"@type":"LearningResource","name":{{ entry.title | jsonify }},"description":{{ meta_description | jsonify }},"url":{{ page_url | jsonify }},"inLanguage":{{ entry.lang | default: "en" | jsonify }},"isPartOf":{"@type":"WebSite","name":{{ site.title | jsonify }},"url":{{ "/" | absolute_url | jsonify }}},"author":{"@type":"Person","name":"Dawid Olko","url":"https://dawidolko.pl/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ "/" | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ entry.label | jsonify }},"item":{{ page_url | jsonify }}}]}]}
+      {%- endif %}
+    </script>
+    {%- endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
+    <script src="/a11y/a11y-panel.js" data-accent="#4a7a0c" defer></script>
+    {% include head-custom.html %}
+  </head>
+  <body>
+      <a class="skip-link" href="#main">Skip to content</a>
+      <header id="header">
+        <nav aria-label="Repository">
+          <ul>
+            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+            {% if site.show_downloads %}
+              <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
+              <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
+              <li class="title">DOWNLOADS</li>
+            {% endif %}
+          </ul>
+        </nav>
+      </header>
+
+    <main class="wrapper" id="main" tabindex="-1">
+
+      <section>
+        <div id="title">
+          {% if home %}<h1>{{ site.title | default: site.github.repository_name }}</h1>{% else %}<p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></p>{% endif %}
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/dawidolko">dawidolko</a></span>
         </div>
-      </body>
-    </html>
-    
+
+        {% if entry.h1 %}<h1>{{ entry.h1 | escape }}</h1>{% endif %}
+        {{ body | replace: "<hh", "<h" | replace: "</hh", "</h" | replace: "<pre", '<pre tabindex="0"' }}
+
+      </section>
+
+    </main>
+  </body>
+</html>

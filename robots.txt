@@ -1,4 +1,3 @@
-# Każdy katalog to osobny, kompletny szablon — wszystkie są publiczne.
 User-agent: *
 Allow: /
 

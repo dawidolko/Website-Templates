@@ -1,0 +1,122 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+/*
+ * The theme declares its faces without font-display, so the faces in use are declared
+ * again here, woff only, with swap. The later declaration of a face wins.
+ */
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSans-Light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansSemibold";
+  src: url("../fonts/OpenSans-Semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSans-Bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 200;
+  padding: 10px 14px;
+  border-radius: 2px;
+  background: #ffcc00;
+  color: #1c1c1c;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+a:focus-visible,
+pre:focus-visible,
+main:focus-visible {
+  outline: 2px solid #ffcc00;
+  outline-offset: 2px;
+}
+
+main:focus {
+  outline: none;
+}
+
+section a {
+  text-decoration: underline;
+}
+
+section .site-title {
+  margin: 0 0 10px;
+  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+section #title .site-title a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+
+section #title h1 {
+  line-height: 1.1;
+}
+
+section #title .credits {
+  color: #b5b5b5;
+}
+
+#header nav ul li a {
+  border-color: #3f6a09;
+  background: #4a7a0c linear-gradient(#55880f, #44700a);
+}
+
+#header nav ul li a:hover {
+  border-color: #33560a;
+  background: #3d6609 linear-gradient(#44700a, #36590a);
+}
+
+section img {
+  height: auto;
+}
+
+.highlight .se,
+.highlight .si {
+  color: #d9925f;
+}
+
+.highlight .gd {
+  color: #ff8d8e;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
