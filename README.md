@@ -233,6 +233,14 @@ Copy the single directory you want into your own project — nothing in a templa
 
 An accessibility panel in the corner of every page changes text size, contrast, font and motion, and remembers the choice on the device. It sits on top of the markup and does not replace accessible markup.
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/readme/demo.webp" alt="Website Templates: a short scroll through the live site" width="80%">
+</p>
+
+---
+
 ## 📄 License
 
 MIT © [Dawid Olko](https://dawidolko.pl)
