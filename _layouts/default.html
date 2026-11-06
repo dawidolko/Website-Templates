@@ -43,7 +43,7 @@
     <meta property="og:image" content="{{ og_image }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="{{ site.title | escape }} study notes">
+    <meta property="og:image:alt" content="{{ site.title | escape }} preview">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ meta_title | escape }}">
     <meta name="twitter:description" content="{{ meta_description | escape }}">
@@ -58,6 +58,7 @@
     </script>
     {%- endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="preload" as="font" type="font/woff" href="/assets/fonts/OpenSans-Regular-webfont.woff?v=swap" crossorigin>
     <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
     <script src="/a11y/a11y-panel.js" data-accent="#4a7a0c" defer></script>
     {% include head-custom.html %}
@@ -89,7 +90,7 @@
         </div>
 
         {% if entry.h1 %}<h1>{{ entry.h1 | escape }}</h1>{% endif %}
-        {{ body | replace: "<hh", "<h" | replace: "</hh", "</h" | replace: "<pre", '<pre tabindex="0"' }}
+        {{ body | replace: "<hh", "<h" | replace: "</hh", "</h" | replace: "<pre", '<pre tabindex="0"' | replace: "<table", '<table tabindex="0"' }}
 
       </section>
 

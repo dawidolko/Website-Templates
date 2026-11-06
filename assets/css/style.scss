@@ -5,11 +5,12 @@
 
 /*
  * The theme declares its faces without font-display, so the faces in use are declared
- * again here, woff only, with swap. The later declaration of a face wins.
+ * again here, woff only, with swap. The later declaration of a face wins, and the query
+ * string keeps the theme's own rules from matching these requests.
  */
 @font-face {
   font-family: "OpenSansLight";
-  src: url("../fonts/OpenSans-Light-webfont.woff") format("woff");
+  src: url("../fonts/OpenSans-Light-webfont.woff?v=swap") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,7 +18,7 @@
 
 @font-face {
   font-family: "OpenSansRegular";
-  src: url("../fonts/OpenSans-Regular-webfont.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular-webfont.woff?v=swap") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -25,7 +26,7 @@
 
 @font-face {
   font-family: "OpenSansSemibold";
-  src: url("../fonts/OpenSans-Semibold-webfont.woff") format("woff");
+  src: url("../fonts/OpenSans-Semibold-webfont.woff?v=swap") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -33,7 +34,7 @@
 
 @font-face {
   font-family: "OpenSansBold";
-  src: url("../fonts/OpenSans-Bold-webfont.woff") format("woff");
+  src: url("../fonts/OpenSans-Bold-webfont.woff?v=swap") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -102,6 +103,13 @@ section #title .credits {
 
 section img {
   height: auto;
+}
+
+@media (max-width: 720px) {
+  section table {
+    display: block;
+    overflow-x: auto;
+  }
 }
 
 .highlight .se,
