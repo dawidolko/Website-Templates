@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://templateswebsite.dawidolko.pl/"><img src="docs/readme/banner.webp" alt="Website Templates: resource. 170 templates, all of them openable" width="100%"></a>
+</p>
+
 # Website Templates
 
 > 🎨 **170 templates, all of them openable** — a browsable library of free HTML5 and Bootstrap templates, each one live
@@ -13,6 +17,8 @@ There is nothing to install and nothing to build. Each directory is a complete s
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 **Browse them all:** [templateswebsite.dawidolko.pl](https://templateswebsite.dawidolko.pl/)
+
+**[Live site](https://templateswebsite.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Features](#-key-features)
 
 ---
 
@@ -214,6 +220,23 @@ Copy the single directory you want into your own project — nothing in a templa
 
 ---
 
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="docs/readme/desktop.webp" alt="Website Templates on a desktop screen" width="74%">
+  <img src="docs/readme/mobile.webp" alt="Website Templates on a phone" width="22%">
+</p>
+
+---
+
 ## 📄 License
 
 MIT © [Dawid Olko](https://dawidolko.pl)
+
+---
+
+## 👨‍💻 Author
+
+**Dawid Olko** · Fullstack / AI Developer
+
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
