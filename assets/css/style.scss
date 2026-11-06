@@ -3,43 +3,6 @@
 
 @import "jekyll-theme-midnight";
 
-/*
- * The theme declares its faces without font-display, so the faces in use are declared
- * again here, woff only, with swap. The later declaration of a face wins, and the query
- * string keeps the theme's own rules from matching these requests.
- */
-@font-face {
-  font-family: "OpenSansLight";
-  src: url("../fonts/OpenSans-Light-webfont.woff?v=swap") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "OpenSansRegular";
-  src: url("../fonts/OpenSans-Regular-webfont.woff?v=swap") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "OpenSansSemibold";
-  src: url("../fonts/OpenSans-Semibold-webfont.woff?v=swap") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "OpenSansBold";
-  src: url("../fonts/OpenSans-Bold-webfont.woff?v=swap") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 .skip-link {
   position: absolute;
   left: 12px;
@@ -103,6 +66,11 @@ section #title .credits {
 
 section img {
   height: auto;
+}
+
+section > div > a {
+  display: inline-block;
+  min-height: 24px;
 }
 
 @media (max-width: 720px) {
